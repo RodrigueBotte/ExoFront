@@ -1,11 +1,11 @@
 import ServiceCard from "./ServiceCard";
 
-function Services() {
+function Realisation() {
     return (
-        <section id="services" className="services py-5 color-section size-secondary d-flex justify-content-center align-items-center">
+        <section id="realisations" className="realisations py-5 color-section size-secondary d-flex justify-content-center align-items-center">
             <div className="container">
                 <div className="d-flex justify-content-center w-100 mb-4 color-text">
-                    <h2>Mes services</h2>
+                    <h2>Mes réalisations</h2>
                 </div>
                 <div className="d-flex justify-content-center row g-5 ">
                     <div className="col-md-4">
@@ -32,7 +32,7 @@ function Services() {
                 </div>
             </div>
         </section>
-    );
+    )
 }
 
-export default Services;
+export default Realisation;
