@@ -9,9 +9,10 @@ function Header() {
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
                         <a class="nav-link active text-light" aria-current="page" href="/">Accueil</a>
-                        <a class="nav-link text-light" href="/services">Services</a>
-                        <a class="nav-link text-light" href="/contact">Contact</a>
-                        {/* <a class="nav-link disabled" aria-disabled="true">Disabled</a> */}
+                        <a class="nav-link text-light" href="#services">Services</a>
+                        <a class="nav-link text-light" href="#realisations">Réalisations</a>
+                        <a class="nav-link text-light" href="#stacks">Stack</a>
+                        <a class="nav-link text-light" href="#contact">Contact</a>
                     </div>
                 </div>
             </div>

@@ -6,6 +6,8 @@ import Footer from './components/Footer';
 import Contact from './components/Contact';
 import Stack from './components/Stack';
 import Realisation from './components/Realisation';
+import BackToTop from './components/BackToTop';
+import ContactV2 from './components/ContactV2';
 
 function App() {
   return (
@@ -16,9 +18,11 @@ function App() {
         <Services />
         <Stack />
         <Realisation />
-        <Contact />
+        {/* <Contact /> */}
+        <ContactV2 />
       </main>
       <Footer />
+      <BackToTop />
     </div>
   );
 }
